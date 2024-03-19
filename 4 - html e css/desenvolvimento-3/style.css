@@ -2,12 +2,20 @@ body {
     background-color: lightyellow;
 }
 
+header,
+footer {
+    background-color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 main {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav li {
@@ -27,4 +35,8 @@ nav li {
 .hyperlink {
     text-decoration: none;
     color: green
+}
+
+.logo {
+    font-size: 30px;
 }
